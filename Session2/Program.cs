@@ -1,4 +1,6 @@
-﻿namespace Session2;//Main namespace for the project
+﻿using System.Drawing;
+
+namespace Session2;//Main namespace for the project
 class Program
 {
     //Class, Struct, Enum, and Interface definitions can go here
@@ -102,6 +104,34 @@ class Program
         //Console.Write(x);
         //Console.WriteLine(name);
         #endregion
+        #region Reference types
+        //Point P1;
+        //Allocate 4 bytes in Stack memory
+        //Allocate 0 bytes in Heap memory
+        //P1 = new Point();
+        //new
+        //Allocate 8 bytes in Heap memory for Point object
+        //intialize each field with the deafult value based on datatype
+        //Call user defined constructor if exists
+        //Assign the reference to the object in the heap
+        //Console.WriteLine(P1.x);
+        //Console.WriteLine(P1.y);
+        //Point P2 = new Point() { x = 5, y = 10 };
+        //Console.WriteLine(P2.x);
+        //Console.WriteLine(P2.y);
+        //Console.WriteLine();
+        //P1 = P2;
+        //Console.WriteLine(P1.x);
+        //Console.WriteLine(P1.y);
+        //Console.WriteLine(P2.x);
+        //Console.WriteLine(P2.y);
+
+        //P1.x = 30;
+        //Console.WriteLine();
+        //Console.WriteLine(P1.x);
+        //Console.WriteLine(P2.x);
+        #endregion
+
     }
 }
 
