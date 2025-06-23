@@ -69,6 +69,39 @@ class Program
         //string myName = "Mohamed Khaled"; //String variable
         String myName = new string("Mohamed Khaled"); //String variable using constructor
         #endregion
+
+        //Int32 X = 29;
+        //int x = 29;//alise [C# KEYWORD]
+        //Int16 S=19;
+        //String name= "Mohamed Khaled"; //String variable
+        //string name2 = "Mohamed Khaled";
+        #region ValueTypes
+        //String name= "Mohamed Khaled"; //alise [C# KEYWORD]
+        //string name2 = "Mohamed Khaled";//[BCL]
+
+        //Single number = 10;
+        //float number2 = 10.5f; //Single is a 32-bit floating point type
+        //int x;
+        ////Allocate 4 Byets in Stack memory[Uninializted]
+        //x = 5;
+        ////Assign value to x
+        //Console.WriteLine(x);
+        //int y = 10;
+        //Console.WriteLine(y);
+        //Console.WriteLine();
+        //y = x;//y=x=5
+        //Console.WriteLine(x);
+        //Console.WriteLine(y);
+
+        //y++; //y = y + 1; //Increment y by 1
+        //Console.WriteLine();
+        //Console.WriteLine(x);
+        //Console.WriteLine(y);
+        //int x = 10; 
+        //string name = "Mohamed Khaled";
+        //Console.Write(x);
+        //Console.WriteLine(name);
+        #endregion
     }
 }
 
